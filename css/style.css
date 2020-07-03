@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  border: 1px solid red;
+  position: relative;
+  background: url(../img/rectangle.png);
+  background-size: cover;
+  z-index: 10;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  width: 85%;
+  height: 5rem;
+  top: 4rem;
+}
+
+.logo {
+  left: 0%;
+  right: 0%;
+  top: 100%;
+  bottom: -100%;
+}
+
+.burger {
+  left: 12.5%;
+  right: 12.5%;
+  top: 25%;
+  bottom: 25%;
+}
+
+/* .rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  background-size: 100%;
+  z-index: 1;
+  height: 100vh;
+} */
+.illustration img {
+  position: absolute;
+  border: 1px solid green;
+  width: 100rem;
+  height: 80rem;
+  right: 0rem;
+  top: 10rem;
+  /* background-size: 150%; */
+  /* width: 130%;
+  height: 130%; */
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  border: 1px solid black;
+  margin-right: 45rem;
+  margin-bottom: 37rem;
+}
+
+h1 {
+  border: 4px dotted grey;
+  /* width: 70rem;
+  height: 20rem; */
+  /* left: 212px;
+  top: 189px; */
+  font-family: "GalienRegular";
+  font-size: 7rem;
+  line-height: 8rem;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+
+.mainText p {
+  border: 2px dotted grey;
+  /* width: 425px;
+  height: 82px; */
+  /* left: 213px;
+  top: 369px; */
+  font-family: "GilroyLight";
+  font-size: 2.2rem;
+  line-height: 3rem;
+  /* or 162% */
+  letter-spacing: 0.05em;
+  /* Blue_01 */
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-right: 14rem;
+}
+
+.seeOurProjectBtn {
+  position: absolute;
+  width: 27rem;
+  height: 6rem;
+  left: 0;
+  top: 50rem;
+  background: #5a98d0;
+  box-shadow: 1px 2px 3px rgba(53, 110, 173, 0.2);
+  border: none;
+  border-radius: 10px;
+  font-family: Gilroy;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #fff;
+  }

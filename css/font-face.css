@@ -1,11 +1,15 @@
 @font-face {
   font-family: 'GalienRegular';
-  src: url('fonts/GalienRegular.woff2') format('woff2'),
-    url('fonts/GalienRegular.woff') format('woff'),
+  src: url(../fonts/GalienRegular.woff2) format('woff2'),
+    url(../fonts/GalienRegular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'GilroyLight';
-  src: url('fonts/GilroyLight.woff2') format('woff2'),
-    url('fonts/GilroyLight.woff') format('woff'),
+  src: url(../fonts/GilroyLight.woff2) format('woff2'),
+    url(../fonts/GilroyLight.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

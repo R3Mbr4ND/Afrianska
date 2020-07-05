@@ -46,6 +46,11 @@ header {
   bottom: -100%;
 }
 
+.logo img {
+  width: 130%;
+  height: 130%;
+}
+
 .burger {
   left: 12.5%;
   right: 12.5%;
@@ -53,25 +58,18 @@ header {
   bottom: 25%;
 }
 
-/* .rectangle {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  position: relative;
-  background-size: 100%;
-  z-index: 1;
-  height: 100vh;
-} */
+.burger img {
+  width: 130%;
+  height: 130%;
+}
+
 .illustration img {
   position: absolute;
   border: 1px solid green;
   width: 100rem;
   height: 80rem;
-  right: 0rem;
+  right: 0;
   top: 10rem;
-  /* background-size: 150%; */
-  /* width: 130%;
-  height: 130%; */
 }
 
 .mainText {
@@ -88,32 +86,24 @@ header {
 
 h1 {
   border: 4px dotted grey;
-  /* width: 70rem;
-  height: 20rem; */
-  /* left: 212px;
-  top: 189px; */
   font-family: "GalienRegular";
-  font-size: 7rem;
+  font-size: 8rem;
+  font-weight: 600;
   line-height: 8rem;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   color: #1f3f68;
 }
 
 .mainText p {
   border: 2px dotted grey;
-  /* width: 425px;
-  height: 82px; */
-  /* left: 213px;
-  top: 369px; */
   font-family: "GilroyLight";
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   line-height: 3rem;
-  /* or 162% */
   letter-spacing: 0.05em;
-  /* Blue_01 */
-  color: #1F3F68;
+  color: #1f3f68;
   opacity: 0.6;
   margin-right: 14rem;
+  margin-bottom: 3rem;
 }
 
 .seeOurProjectBtn {
@@ -122,14 +112,204 @@ h1 {
   height: 6rem;
   left: 0;
   top: 50rem;
-  background: #5a98d0;
+  background-color: #5a98d0;
   box-shadow: 1px 2px 3px rgba(53, 110, 173, 0.2);
   border: none;
   border-radius: 10px;
-  font-family: Gilroy;
+  font-family: GilroyLight;
   font-size: 1.9rem;
   line-height: 2.7rem;
   text-align: center;
   letter-spacing: 0.04em;
   color: #fff;
-  }
+}
+
+.whatWeDo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: #e5e5e5;
+}
+
+.card0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem;
+  margin-bottom: 5rem;
+  margin-left: 40rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 1rem;
+  border: 1px dotted black;
+}
+
+.card1 {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem;
+  margin-top: 17rem;
+  margin-right: 35rem;
+  margin-bottom: 5rem;
+  padding: 6rem;
+  background-color: #fff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.card2 {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem;
+  margin-top: -25rem;
+  margin-right: 5rem;
+  margin-left: 55rem;
+  padding: 6rem;
+  background-color: #fff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.card3 {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem;
+  margin-left: 7.6rem;
+  margin-top: 5rem;
+  padding: 6rem;
+  background-color: #fff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+h2 {
+  border: 1px dotted green;
+  font-family: "GilroyLight";
+  font-size: 4.5rem;
+  line-height: 4.6rem;
+  letter-spacing: 0.05em;
+  color: #316099;
+}
+
+.card1 span {
+  font-family: GilroyLight;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+}
+
+.card1 p {
+  font-family: GilroyLight;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+.card2 span {
+  font-family: GilroyLight;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+}
+
+.card2 p {
+  font-family: GilroyLight;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+.card3 span {
+  font-family: GilroyLight;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+}
+
+.card3 p {
+  font-family: GilroyLight;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+.card1 img {
+  padding: 2rem;
+  margin-left: 1.5rem;
+  margin-top: -11rem;
+  width: 140%;
+  height: 140%;
+}
+
+.card2 img {
+  padding: 2rem;
+  width: 120%;
+  height: 120%;
+}
+
+.card3 img {
+  padding: 2rem;
+  width: 120%;
+  height: 120%;
+}
+
+.ourBelovedClient {
+  background-color: #e5e5e5;
+}
+
+.ourBelovedClientBG {
+  border: 1px solid red;
+  position: relative;
+  background: url(../img/ourBelovedClientBG.svg);
+  background-size: cover;
+  z-index: 1;
+  height: 400vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ourBelovedClientContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  width: 223px;
+  height: 92px;
+  left: 213px;
+  top: 2418px;
+  font-family: GilroyLight;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
